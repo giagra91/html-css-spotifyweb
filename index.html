@@ -19,19 +19,44 @@
     <main class="flex">
 
         <!-- Menu navigazione laterale -->
-        <nav id="main-nav"></nav>
+        <nav class="flex-column" id="main-nav">
+        </nav>
 
         <!-- Sezione principale -->
         <section id="main-section" class="flex">
 
-            <!-- Bassa superiore opaca per sottoscrizione abbonamento -->
-            <div id="top-subscription"></div>
+            <!-- Barra superiore opaca per sottoscrizione abbonamento -->
+            <div class="flex" id="top-subscription">
+            </div>
+
+            <div class="main flex">
+
+                <div class="flex" id="top-nav"></div>
+
+                <div class="row flex">
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                </div>
+
+
+
+            </div>
 
         </section>
 
     </main>
+
     <!-- Footer con info brano e tasti di riproduzione -->
-    <footer class="absolute" id="song-info"></footer>
+    <footer class="flex absolute">
+
+        <div class="song-info"></div>
+        <div class="song-nav"></div>
+        <div class="volume"></div>
+
+    </footer>
 
 
     
