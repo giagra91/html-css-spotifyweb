@@ -35,6 +35,15 @@ nav#main-nav{
     width: 250px;
     height: calc( 100vh - 80px);
     background-color: #000000;
+    padding: 1rem;
+}
+
+nav#main-nav div.nav-main-menu div.logo{
+
+}
+
+nav#main-nav div.nav-main-menu div.logo img{
+    width: 60%;
 }
 
 main section#main-section{
@@ -67,16 +76,16 @@ main section#main-section div.main div.top-nav{
 
 main section#main-section div.main div.row{
     width: 100%;
-    margin: 1rem 0;
     flex-wrap: wrap;
+    margin-bottom: 1rem;
+    gap: 15px;
 }
 
 main section#main-section div.card{
-    width: calc( 100% / 6);
+    width: calc(( 100% / 6) - 15px);
     height: 200px;
     background-color: red;
     border: 5px solid green;
-    margin: 1rem 0;
 }
 
 footer{
@@ -124,7 +133,7 @@ footer div.song-nav div.song-time{
     }
 
     main section#main-section div.card{
-        width: 50%;
+        width: calc(50% - 15px);
     }
     
 }
@@ -133,7 +142,7 @@ footer div.song-nav div.song-time{
 @media screen and (min-width: 577px) and (max-width: 992px){
     
     main section#main-section div.card{
-        width: 50%;
+        width: calc(50% - 15px);
     }
     
 }
@@ -142,7 +151,7 @@ footer div.song-nav div.song-time{
 @media screen and (min-width: 993px) and (max-width: 1200px){
     
     main section#main-section div.card{
-        width: 25%;
+        width: calc(25% - 15px);
     }
     
 }
