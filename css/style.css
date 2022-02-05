@@ -35,11 +35,11 @@ nav#main-nav{
     width: 250px;
     height: calc( 100vh - 80px);
     background-color: #000000;
-    padding: 1rem;
+    padding: 0 1rem;
 }
 
 nav#main-nav div.nav-main-menu div.logo{
-
+    padding: 1rem 0;
 }
 
 nav#main-nav div.nav-main-menu div.logo img{
