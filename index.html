@@ -26,20 +26,20 @@
                 <!-- Logo Spotify -->
                 <div class="logo">
                     <img src="img/logo.svg" alt="Spotify logo">
+                    <img class="mobile-logo" src="img/logo-small.svg" alt="Spotify logo small">
                 </div>
 
                 <!-- Link principali main-nav -->
                 <div class="main-nav-links">
                     <ul>
-                        <li>                        
-                            <a href="#"><i class="fas fa-home"></i>Home</a>
+                        <li>
+                            <a href="#"><i class="fas fa-home"></i><span>Home</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-search"></i>Cerca</a>
-
+                            <a href="#"><i class="fas fa-search"></i><span>Cerca</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-home"></i>La tua libreria</a>
+                            <a href="#"><i class="fas fa-home"></i><span>La tua libreria</span></a>
                         </li>
                     </ul>
 
@@ -65,15 +65,17 @@
                 </div>
 
             </div>
+
+            <!-- Footer nav -->
             <div class="nav-footer">
                 <p>
-                    <a href="#"><i class="far fa-arrow-alt-circle-down"></i>Installa app</a>
+                    <a href="#"><i class="far fa-arrow-alt-circle-down"></i><span>Installa app</span></a>
                 </p>
 
-                <h3>
+                <h4>
                     <i class="fas fa-user-circle"></i>
-                    John Doe
-                </h3>
+                    <span>John Doe</span>
+                </h4>
             </div>
         </nav>
 
@@ -82,6 +84,9 @@
 
             <!-- Barra superiore opaca per sottoscrizione abbonamento -->
             <div class="flex" id="top-subscription">
+                    <a href="#">
+                        Effettua l'upgrade
+                    </a>
             </div>
 
             <div class="main flex-column">
@@ -113,31 +118,31 @@
                         <img src="img/stranger.jpeg" alt="Stranger things image">
                         <h4>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h4>
                         <span class="subtitle">Kyle Dixon & Michael Stein</span>
-                    </div>                    
+                    </div>
 
                     <div class="card">
                         <img src="img/aquietplace.jpeg" alt="A quiet place image">
                         <h4>A quiet place</h4>
                         <span class="subtitle">Subtitle</span>
-                    </div>                     
+                    </div>
 
                     <div class="card">
                         <img src="img/split.jpeg" alt="Split image">
                         <h4>Split</h4>
                         <span class="subtitle">Subtitle</span>
-                    </div>                     
+                    </div>
 
                     <div class="card">
                         <img src="img/cure.jpeg" alt="Cure for wellnes image">
                         <h4>A cure for wellnes</h4>
                         <span class="subtitle">Subtitle</span>
                     </div>
-                    
+
                     <div class="card">
                         <img src="img/sinister.jpeg" alt="Sinister image">
                         <h4>Sinister</h4>
                         <span class="subtitle">Subtitle</span>
-                    </div> 
+                    </div>
 
                 </div>
 
@@ -149,12 +154,12 @@
                     <div class="card">
                         <img src="img/radar.jpeg" alt="Radar image">
                         <h4>Release Radar</h4>
-                    </div>                    
-                    
+                    </div>
+
                     <div class="card">
                         <img src="img/mixdaily.jpeg" alt="Daily mix image">
                         <h4>Daily Mix</h4>
-                    </div> 
+                    </div>
                 </div>
 
                 <!-- Terza riga relativa ai brani -->
@@ -168,7 +173,7 @@
 
                     <div class="card">
                         <img class="circular-image" src="img/einaudi.jpeg" alt="Einaudi image">
-                    </div>                     
+                    </div>
 
                 </div>
 
@@ -181,33 +186,58 @@
     <!-- Footer con info brano e tasti di riproduzione -->
     <footer class="flex absolute">
 
+        <!-- Parte sinistra relativa ad info brano, album e artista -->
         <div class="song-info flex">
-            
+
             <div class="image-album">
+
                 <img src="img/sinister.jpeg" alt="Sinister image">
+                
             </div>
 
             <div class="album-info">
-                <h6>Sinister</h6>
-                <p><a href="#">Brano Nome</a></p>
+
+                <h5>Sinister</h5>
+                <p>
+                    <a href="#">Brano Nome</a>
+                </p>
+
             </div>
-            
+
             <div class="album-icons">
+
                 <a href="#" class="heart"><i class="far fa-heart"></i></a>
                 <a href="#" class="folder"><i class="far fa-folder"></i></a>
+
             </div>
+
         </div>
+
+        <!-- Parte centrale con barra e pulsanti di navigazione -->
         <div class="song-nav flex-column">
+
             <div class="song-nav-buttons">
-                <img src="img/home.svg" alt="">
             </div>
-            <div class="song-time"></div>
+            <div class="song-time">
+                <span>0:25</span>
+                <span class="song-timing-bar"></span>
+                <span>4:35</span>
+
+            </div>
+
         </div>
-        <div class="volume"></div>
+
+        <!-- Parte destra relativa al volume -->
+        <div class="volume flex">
+
+            <a href="#"><i class="fas fa-list"></i></a>
+            <a href="#"><i class="fas fa-desktop"></i></a>
+            <a href="#"><i class="fas fa-volume-up"></i></a>
+            <a href="#"><div class="volume-bar"></div></a>
+
+        </div>
 
     </footer>
-
-
 
 </body>
 </html>
