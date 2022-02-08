@@ -204,6 +204,12 @@ main section#main-section div.main div.top-nav ul li{
     text-transform: uppercase;
 }
 
+main section#main-section div.main div.top-nav .green-underline{
+    width: 15px;
+    height: 3px;
+    background-color: green;
+}
+
 /* Hover link top-nav */
 main section#main-section div.main div.top-nav ul li a:hover{
     color: white;
@@ -268,6 +274,7 @@ main section#main-section div.card h4{
 footer{
     width: 100%;
     height: 65px;
+    min-width: 400px;
     bottom: 0;
     background-color: #282828;
     justify-content: space-between;
@@ -276,7 +283,7 @@ footer{
 
 footer div.song-info{
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 /* Hover song-info */
@@ -289,7 +296,11 @@ footer .song-info .album-icons a:hover{
     color: white;
 }
 
-footer div.song-info,
+footer div.song-info{
+    width: 200px;
+    height: 100%;
+}
+
 footer div.volume{
     width: 18%;
     height: 100%;
@@ -306,6 +317,7 @@ footer div.song-nav{
 footer div.song-nav div.song-time{
     width: 100%;
     height: 50%;
+    font-size: .7rem;
     justify-content: space-around;
     align-items: center;
 }
@@ -313,7 +325,7 @@ footer div.song-nav div.song-time{
 footer div.song-nav div.song-nav-buttons{
     width: 100%;
     height: 50%;
-    font-size: .9rem;
+    font-size: .8rem;
     justify-content: center;
     align-items: center;
 }
@@ -387,6 +399,7 @@ footer div.song-info .album-icons{
 }
 
 footer div.volume{
+    font-size: .7rem;
     justify-content: space-around;
     align-items: center;
 }
