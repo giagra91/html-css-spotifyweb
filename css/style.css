@@ -263,13 +263,30 @@ footer div.song-nav{
     color: #C1C1C1;
 }
 
-footer div.song-nav div.song-nav-buttons,
 footer div.song-nav div.song-time{
     width: 100%;
     height: 50%;
     justify-content: space-around;
     align-items: center;
 }
+
+footer div.song-nav div.song-nav-buttons{
+    width: 100%;
+    height: 50%;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div.song-nav div.song-nav-buttons span{
+    margin-left: 1rem;
+}
+
+/* Hover su play */
+footer div.song-nav div.song-nav-buttons .fa-play-circle:hover{
+    scale: 1.4;
+}
+
 
 footer div.song-nav div.song-time .player-bar{
     width: 60%;
@@ -342,6 +359,14 @@ footer div.song-nav div.song-time .elapsed-time{
     nav#main-nav div.nav-main-menu div.logo .mobile-logo{
         display: block;
         width: 100%;
+    }
+
+    nav#main-nav div.nav-main-menu .main-nav-links ul li{
+        padding: 0 .7rem;
+    }
+
+    nav#main-nav div.nav-main-menu .main-nav-links ul li:first-child{
+        border: none;
     }
 
     main section#main-section div#top-subscription{
