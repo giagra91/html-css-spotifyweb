@@ -33,13 +33,22 @@
                 <div class="main-nav-links">
                     <ul>
                         <li>
-                            <a href="#"><i class="fas fa-home"></i><span>Home</span></a>
+                            <a href="#">
+                                <img src="img/home.svg" alt="Home svg">
+                                <span>Home</span>
+                            </a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-search"></i><span>Cerca</span></a>
+                            <a href="#">
+                                <img src="img/search.svg" alt="Search svg">
+                                <span>Cerca</span>
+                            </a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-home"></i><span>La tua libreria</span></a>
+                            <a href="#">
+                                <img src="img/libreria.svg" alt="Books svg">
+                                <span>La tua libreria</span>
+                            </a>
                         </li>
                     </ul>
 
@@ -108,8 +117,14 @@
                 <div class="row flex">
 
                     <div class="card">
-                        <img src="img/metal_lifting.jpg" alt="Metal lifting photo">
-                        <!-- <div class="hover-play"></div> -->
+
+                        <div>
+                            <img src="img/metal_lifting.jpg" alt="Metal lifting photo">
+                            <!-- <div class="hover-play">
+                                <i class="far fa-play-circle"></i>
+                            </div> -->
+                        </div>
+
                         <h4>Heavy Metal</h4>
                         <span class="subtitle">Subtitle</span>
                     </div>
@@ -214,7 +229,7 @@
         </div>
 
         <!-- Parte centrale con barra e pulsanti di navigazione -->
-        <div class="song-nav flex-column">
+        <div class="song-nav flex-column shrink">
 
             <div class="song-nav-buttons flex">
 
@@ -225,10 +240,11 @@
                 <span><i class="fas fa-redo-alt"></i></span>
 
             </div>
-            <div class="song-time flex">
+            <div class="song-time flex shrink">
                 <div>0:25</div>
-                <div class="player-bar">
+                <div class="player-bar relative">
                     <div class="elapsed-time"></div>
+                    <!-- <span class="position-bar"></span> -->
                 </div>
                 <div>4:35</div>
 
@@ -237,7 +253,7 @@
         </div>
 
         <!-- Parte destra relativa al volume -->
-        <div class="volume flex">
+        <div class="volume flex shrink">
 
             <a href="#"><i class="fas fa-list"></i></a>
             <a href="#"><i class="fas fa-desktop"></i></a>
