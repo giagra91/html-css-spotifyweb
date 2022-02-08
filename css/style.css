@@ -279,6 +279,16 @@ footer div.song-info{
     justify-content: space-around;
 }
 
+/* Hover song-info */
+footer .song-info .album-info a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+footer .song-info .album-icons a:hover{
+    color: white;
+}
+
 footer div.song-info,
 footer div.volume{
     width: 18%;
@@ -309,7 +319,7 @@ footer div.song-nav div.song-nav-buttons{
 }
 
 footer div.song-nav div.song-nav-buttons span{
-    margin-left: 1rem;
+    margin-left: 1.4rem;
 }
 
 footer div.song-nav div.song-nav-buttons .fa-play-circle{
@@ -329,9 +339,22 @@ footer div.song-nav div.song-time .player-bar{
     border-radius: 5px;
 }
 
+footer div.song-time .position-bar{
+    width: 15px;
+    height: 15px;
+    left: 30%;
+    background-color: white;
+    border-radius: 50%;
+    display: none;
+}
+
 /* Hover su barra brano */
 .song-time .player-bar:hover .elapsed-time{
     background-color:#baff32;
+}
+
+.player-bar:hover .position-bar{
+    display: block;
 }
 
 footer div.song-info .image-album img{
@@ -368,6 +391,11 @@ footer div.volume{
     align-items: center;
 }
 
+/* Hover volume icons */
+footer div.volume a:hover{
+    color: white;
+}
+
 footer div.volume div.player-bar{
     width: 60%;
     height: 5px;
@@ -388,12 +416,6 @@ footer div.song-nav div.song-time .elapsed-time{
     border-radius: 5px;
 }
 
-/* footer div.volume div.player-bar .position-bar{
-    width: 10px;
-    height: 10px;
-    color: white;
-    left: 20%;
-} */
 
 /* Media query "S" MOBILE fino a 576px */
 @media screen and (max-width: 576px){
