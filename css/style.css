@@ -7,7 +7,7 @@
 
 body{
     font-family: 'Circular Std', sans-serif;
-    min-width: 470px;
+    min-width: 500px;
     overflow: hidden;
 }
 
@@ -41,10 +41,6 @@ nav#main-nav{
     font-size: .8rem;
     background-color: #000000;
     justify-content: space-between;
-    flex-shrink: 0;
-}
-
-nav#main-nav div.nav-main-menu{
     flex-shrink: 0;
 }
 
@@ -118,8 +114,6 @@ nav#main-nav div.nav-main-menu .playlists i{
 
 nav#main-nav div.nav-main-menu .playlist-name{
     line-height: 1.7rem;
-    overflow-y: auto;
-    min-height: 50%;
 }
 
 nav#main-nav div.nav-footer{
@@ -205,6 +199,14 @@ main section#main-section div.main div.top-nav ul li{
     display: inline;
     margin-right: 1rem;
     text-transform: uppercase;
+}
+
+main section#main-section div.main div.top-nav .green-bottom-border{
+    width: 30px;
+    height: 2px;
+    background-color: #baff32;
+    left: 24.5%;
+    bottom: 24%;
 }
 
 main section#main-section div.main div.top-nav .green-underline{
