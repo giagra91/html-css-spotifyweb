@@ -424,6 +424,10 @@ footer div.volume .position-bar{
     display: none;
 }
 
+footer div.volume a{
+    margin-right: .3rem;
+}
+
 /* Hover volume icons */
 footer div.volume a:hover{
     color: white;
