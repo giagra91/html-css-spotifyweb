@@ -7,7 +7,8 @@
 
 body{
     font-family: 'Circular Std', sans-serif;
-    min-width: 390px;
+    min-width: 470px;
+    overflow: hidden;
 }
 
 /* FLEXBOX */
@@ -304,6 +305,10 @@ footer div.song-info{
 footer div.volume{
     width: 18%;
     height: 100%;
+    padding-right: .3rem;
+    font-size: .7rem;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer div.song-nav{
@@ -396,12 +401,6 @@ footer div.song-info .album-info{
 footer div.song-info .album-icons{
     width: 20%;
     flex-shrink: 0;
-}
-
-footer div.volume{
-    font-size: .7rem;
-    justify-content: space-around;
-    align-items: center;
 }
 
 footer div.volume .position-bar{
