@@ -491,6 +491,8 @@ footer div.song-nav div.song-time .elapsed-time{
 
     main section#main-section div.card{
         width: calc(50% - 15px);
+        margin: 1rem 0;
+        font-size: .9rem;
     }
     
 }
