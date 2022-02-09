@@ -207,6 +207,11 @@ main section#main-section div.main div.top-nav .green-bottom-border{
     background-color: #baff32;
     left: 32%;
     top: 105%;
+    display: none;
+}
+
+main section#main-section div.main div.top-nav ul li:hover .green-bottom-border{
+    display: block;
 }
 
 main section#main-section div.main div.top-nav .green-underline{
