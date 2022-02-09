@@ -114,6 +114,7 @@ nav#main-nav div.nav-main-menu .playlists i{
 
 nav#main-nav div.nav-main-menu .playlist-name{
     line-height: 1.7rem;
+    overflow-y: auto;
 }
 
 nav#main-nav div.nav-footer{
@@ -184,13 +185,13 @@ main section#main-section div.main h1.row-title{
 main section#main-section div.main div.top-nav{
     width: 100%;
     margin: 1rem 0;
-    text-align: center;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 main section#main-section div.main div.top-nav ul{
     line-height: 2.5rem;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 main section#main-section div.main div.top-nav ul li{
@@ -206,7 +207,7 @@ main section#main-section div.main div.top-nav .green-bottom-border{
     height: 2px;
     background-color: #baff32;
     left: 32%;
-    top: 105%;
+    top: 69%;
     display: none;
 }
 
